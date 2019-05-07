@@ -1,3 +1,6 @@
-from django.shortcuts import render
+from django.http import JsonResponse
 
-# Create your views here.
+
+def question(request, id):
+    data = {}
+    return JsonResponse(data)

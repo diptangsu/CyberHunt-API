@@ -1,3 +1,11 @@
-from django.shortcuts import render
+from django.http import JsonResponse
 
-# Create your views here.
+
+def login(request):
+    data = {}
+    return JsonResponse(data)
+
+
+def register(request):
+    data = {}
+    return JsonResponse(data)
