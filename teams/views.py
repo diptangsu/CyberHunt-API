@@ -9,3 +9,8 @@ def login(request):
 def register(request):
     data = {}
     return JsonResponse(data)
+
+
+def logout(request):
+    data = {}
+    return JsonResponse(data)
